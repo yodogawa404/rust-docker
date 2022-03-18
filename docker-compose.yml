@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  rust:
+    build: ./Dockerfiles/rust/
+    volumes:
+      - ./work:/work:rw
+    tty: true
+    

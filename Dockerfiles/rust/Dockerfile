@@ -1,3 +1,3 @@
-FROM rust:buster
+FROM ubuntu:focal
 
 WORKDIR /work/
